@@ -1,0 +1,20 @@
+h3{
+    font-size:medium !important;
+    font-family:'Times New Roman', Times, serif;
+  }
+  canvas{
+    border:2px dashed green;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  .btn-warning:hover{
+    background-color:cornflowerblue;
+  }
+  @keyframes example{
+    from{box-shadow:2px 5px 15px purple;}
+    to{box-shadow:4px 8px 45px blanchedalmond;}
+  }
+body{
+  background-size:cover;
+}
