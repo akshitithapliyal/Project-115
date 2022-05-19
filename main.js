@@ -32,7 +32,7 @@ function take_snapshot(){
 function gotposes(results){
 if(results.length>0){
     console.log(results);
-    lipstick_x=results[0].pose.lipstick.x-15;
-    lipstick_y=results[0].pose.lipstick.y+15;
+    lipstick_x=results[0].pose.nose.x-15;
+    lipstick_y=results[0].pose.nose.y+15;
 }
 }
